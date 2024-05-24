@@ -104,7 +104,7 @@ function BioContent() {
       <Container>
         <Content>
           <Image src={
-            //`http:localhost:5000/uploads/${character.foto}`
+            `http:localhost:5000/uploads/${character.foto}`
             
             } alt={character.nome} />
           <TextContainer>
