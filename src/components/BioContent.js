@@ -104,8 +104,8 @@ function BioContent() {
       <Container>
         <Content>
           <Image src={
-            //`http://localhost:5000/uploads/${character.foto}`
-            `projetos.mysql.database.azure.com/uploads/${character.foto}`
+            //`http:localhost:5000/uploads/${character.foto}`
+            
             } alt={character.nome} />
           <TextContainer>
             <Title>{character.nome}</Title>
